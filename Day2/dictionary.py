@@ -3,20 +3,20 @@ import json
 student = {
     "name": "hieu",
     "age": 20,
-    "grades": [12,24,23]
+    "grades": [12, 24, 23]
 }
 
-print(json.dumps(student,indent=4))
-value1  = student['name']
+print(json.dumps(student, indent=4))
+value1 = student['name']
 print(value1)
 
-value2 =student.get("id","khong co id chang")
+value2 = student.get("id", "khong co id chang")
 print(value2)
 
 student["id"] = "SV001"
 print(student)
 
-student.update(name="hung", gender = "male")
+student.update(name="hung", gender="male")
 print(student)
 
 info = {
@@ -25,14 +25,14 @@ info = {
 }
 
 student.update(info)
-print(json.dumps(student,indent=4))
+print(json.dumps(student, indent=4))
 
 info2 = [
-    ('id',"sv003"),
-    ('gender','male')
+    ('id', "sv003"),
+    ('gender', 'male')
 ]
 student.update(info2)
-print(json.dumps(student,indent=4))
+print(json.dumps(student, indent=4))
 
 tup = student.popitem()
 
@@ -43,9 +43,9 @@ itenms = list(student.items())
 student.clear()
 
 total = sum(list)
-lst = ['a','b','c']
+lst = ['a', 'b', 'c']
 print(len(lst))
 
-lst2 = [4,454,5345,4]
-s = 'daucach '.join(map(str,lst2))
+lst2 = [4, 454, 5345, 4]
+s = 'daucach '.join(map(str, lst2))
 print(s)
