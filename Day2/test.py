@@ -13,3 +13,7 @@ print("i am",age)
 friends = [("hieu", "lop12"), ("hung","lop10")]
 print(f"length of {friends} is {len(friends)}")
 
+for i in range(1,6):
+    if(i % 2 == 0 ):
+        print(i, sep = " ")
+
