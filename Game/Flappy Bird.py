@@ -8,7 +8,7 @@ pygame.init()
 width, height = 400, 600
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Flappy Bird")
-
+#print("Flappy Bird")
 # Màu sắc
 white = (255, 255, 255)
 black = (0, 0, 0)
