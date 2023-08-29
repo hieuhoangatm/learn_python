@@ -1,5 +1,6 @@
 for t in range(int(input())):
-    s = input()
-    s_rev = s[::-1]
-    tong = sum(int(i) for i in s)
-    print(tong)
+    n = int(input())
+    a = []
+    a = list(map(int, input().split()))
+    a = a.sort()
+    print(a)
