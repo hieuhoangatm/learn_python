@@ -14,7 +14,7 @@ white = (255, 255, 255)
 black = (0, 0, 0)
 blue = (0, 0, 255)
 
-# Cài đặt fonts
+# Cài đặt fonts 
 font = pygame.font.Font(None, 36)
 
 # Tạo con chim
@@ -87,3 +87,6 @@ while running:
     pygame.time.Clock().tick(30)
 
 pygame.quit()
+
+
+

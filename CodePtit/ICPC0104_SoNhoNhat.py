@@ -12,3 +12,4 @@ for t in range(int(input())):
                 maxx =0
 
     print(min(a))
+

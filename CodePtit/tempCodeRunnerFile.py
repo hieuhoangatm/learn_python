@@ -1,6 +1,6 @@
+   
 for t in range(int(input())):
     n = int(input())
-    a = []
-    a = list(map(int, input().split()))
-    a = a.sort()
+    a = [int(i) for i in (input()).split()]
+    #a.sort(key = lambda x: (tong(x),x))
     print(a)
